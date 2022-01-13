@@ -60,6 +60,62 @@ function Home() {
                     <img src={another} alt="" />
                 </div>
             </div>
+            <div className="my-skills-main-reel">
+                <div className="my-skills-reel" id="skill-reel">
+                    <div className="reel-item">&nbsp; -- My skills</div>
+                    <div className="reel-item">&nbsp; -- My skills</div>
+                    <div className="reel-item">&nbsp; -- My skills</div>
+                    <div className="reel-item">&nbsp; -- My skills</div>
+                    <div className="reel-item">&nbsp; -- My skills</div>
+                    <div className="reel-item">&nbsp; -- My skills</div>
+                    <div className="reel-item">&nbsp; -- My skills</div>
+                    <div className="reel-item">&nbsp; -- My skills</div>
+                    <div className="reel-item">&nbsp; -- My skills</div>
+                    <div className="reel-item">&nbsp; -- My skills</div>
+                </div>
+                <div className="skill-set-boxes">
+                    <div className="skill-set-box">
+                        <h1 className="skill-set-box-h1">HTML5</h1>
+                        <p className="skill-set-box-p">I mainly used to deleop Website Markup</p>
+                        <p>___</p>
+                    </div>
+                    <div className="skill-set-box">
+                        <h1 className="skill-set-box-h1">CSS3</h1>
+                        <p className="skill-set-box-p">I use this to style and bring design to browsers</p>
+                        <p>___</p>
+                    </div>
+                    <div className="skill-set-box">
+                        <h1 className="skill-set-box-h1">JavaScript</h1>
+                        <p className="skill-set-box-p">With this technology I create visual effects and interaction and DOM elements</p>
+                        <p>___</p>
+                    </div>
+                    <div className="skill-set-box">
+                        <h1 className="skill-set-box-h1">React.js</h1>
+                        <p className="skill-set-box-p">I use it to create applications that have lot of reactivity</p>
+                        <p>___</p>
+                    </div>
+                    <div className="skill-set-box">
+                        <h1 className="skill-set-box-h1">Greensock - GSAP</h1>
+                        <p className="skill-set-box-p">I used this as an animation library, The most loved ones!</p>
+                        <p>___</p>
+                    </div>
+                    <div className="skill-set-box">
+                        <h1 className="skill-set-box-h1">Three.js</h1>
+                        <p className="skill-set-box-p">This library deals and simplifies the working with webgl and glsl</p>
+                        <p>___</p>
+                    </div>
+                    <div className="skill-set-box">
+                        <h1 className="skill-set-box-h1">Sass</h1>
+                        <p className="skill-set-box-p">I prefer this also instead of CSS beacouse of advance funcionalities</p>
+                        <p>___</p>
+                    </div>
+                    <div className="skill-set-box">
+                        <h1 className="skill-set-box-h1">Node.js</h1>
+                        <p className="skill-set-box-p">I use it to writing server scripting for applications</p>
+                        <p>___</p>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
