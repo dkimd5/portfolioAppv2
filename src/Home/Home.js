@@ -1,8 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Home.css';
 import Header from '../Header/Header';
 import flower from '../Assets/flower.svg';
 import another from '../Assets/another.svg';
+import arrow from '../Assets/arrow.svg'
 
 function Home() {
     return (
@@ -10,7 +12,7 @@ function Home() {
             <Header />
             <div className="container">
                 <div className="container1">
-                    <div className="text-line" id='kim'>
+                    <div className="txt-line" id='kim'>
                         <p>Kim</p>
                     </div>
                     <div className="txt-line line bottom" id='dmitrii'>
@@ -114,6 +116,15 @@ function Home() {
                         <p className="skill-set-box-p">I use it to writing server scripting for applications</p>
                         <p>___</p>
                     </div>
+                </div>
+                <div className="project-and-work">
+                    <h1>
+                        <Link className="h1-project" to="/projects">
+                            My Projects and Works <img src={arrow} alt="" />
+                        </Link>
+                    </h1>
+                    <br />
+                    <p>Click me!</p>
                 </div>
             </div>
         </div>
