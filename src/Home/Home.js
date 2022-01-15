@@ -116,6 +116,16 @@ function Home() {
                         <p className="skill-set-box-p">I use it to writing server scripting for applications</p>
                         <p>___</p>
                     </div>
+                    <div className="skill-set-box">
+                        <h1 className="skill-set-box-h1">Photoshop</h1>
+                        <p className="skill-set-box-p">Use to edit photos or phototype any website design</p>
+                        <p>___</p>
+                    </div>
+                    <div className="skill-set-box">
+                        <h1 className="skill-set-box-h1">Illustrator</h1>
+                        <p className="skill-set-box-p">I use to make creative svgs and illustrations for website</p>
+                        <p>___</p>
+                    </div>
                 </div>
                 <div className="project-and-work">
                     <h1>
