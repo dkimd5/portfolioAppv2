@@ -4,7 +4,8 @@ import './Home.css';
 import Header from '../Header/Header';
 import flower from '../Assets/flower.svg';
 import another from '../Assets/another.svg';
-import arrow from '../Assets/arrow.svg'
+import arrow from '../Assets/arrow.svg';
+import GetInTouch from '../GetInTouch/GetInTouch';
 
 function Home() {
     return (
@@ -136,6 +137,7 @@ function Home() {
                     <br />
                     <p>Click me!</p>
                 </div>
+                <GetInTouch />
             </div>
         </div>
     )
