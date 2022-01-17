@@ -16,13 +16,13 @@ function Footer() {
                             Social
                         </div>
                         <div className="social-links-items">
-                            <a href="">Youtube</a>
-                            <a href="">Facebook</a>
-                            <a href="">Instagram</a>
-                            <a href="">Twitter</a>
-                            <a href="">Github</a>
-                            <a href="">LinkedIn</a>
-                            <a href="">Snapchat</a>
+                            <a href="##">Youtube</a>
+                            <a href="##">Facebook</a>
+                            <a href="##">Instagram</a>
+                            <a href="##">Twitter</a>
+                            <a href="##">Github</a>
+                            <a href="##">LinkedIn</a>
+                            <a href="##">Snapchat</a>
                         </div>
                     </div>
                     <div className="social-links">
@@ -30,10 +30,10 @@ function Footer() {
                             Contact
                         </div>
                         <div className="social-links-items">
-                            <a href="">Mail</a>
-                            <a href="">Whatsapp</a>
-                            <a href="">Telegram</a>
-                            <a href="">Phone number</a>
+                            <a href="##">Mail</a>
+                            <a href="##">Whatsapp</a>
+                            <a href="##">Telegram</a>
+                            <a href="##">Phone number</a>
                         </div>
                     </div>
                     <div className="footer-menu social-links">
@@ -48,7 +48,7 @@ function Footer() {
                         </div>
                     </div>
                     <div className="footer-btn">
-                        <a href="" className="footer-btn-a">Get Started!</a>
+                        <a href="##" className="footer-btn-a">Get Started!</a>
                     </div>
                 </div>
                 <div className="footer-bottom">
