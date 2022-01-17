@@ -17,7 +17,7 @@ function Home() {
                     <div className="txt-line" id='kim'>
                         <p>Kim</p>
                     </div>
-                    <div className="txt-line line bottom" id='dmitrii'>
+                    <div className="txt-line line-bottom" id='dmitrii'>
                         <p>Dmitrii</p>
                     </div>
                 </div>

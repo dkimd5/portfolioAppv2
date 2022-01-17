@@ -8,6 +8,7 @@
     justify-content: space-between;
     height: 50vh;
     width: 100%;
+    margin-top: -80px;
 }
 
 .container1 {
@@ -24,11 +25,13 @@
 }
 
 .txt-line p {
-    font-size: 200px;
+    font-size: 180px;
     text-transform: capitalize;
     letter-spacing: -10px;
     font-family: "Ogg";
     overflow: hidden;
+    height: 100%;
+    line-height: 90%;
 }
 
 .line-bottom {

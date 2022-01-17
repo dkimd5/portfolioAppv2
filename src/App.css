@@ -15,8 +15,12 @@ body {
     height: 100vh;
     content: "";
     /* opacity: 1; */
-    opacity: .03;
+    opacity: 0.03;
     z-index: 100;
     pointer-events: none;
     background: url(./Assets/noise.gif);
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
