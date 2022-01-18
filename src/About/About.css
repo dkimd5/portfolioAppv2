@@ -19,7 +19,7 @@
 }
 
 .container-inner-text2 {
-    margin-top: -120px;
+    margin-top: -461px;
 }
 
 .container-quote {
@@ -30,7 +30,8 @@
     font-size: 15px;
     color: #642420;
     word-spacing: 10px;
-    font-weight: lighter;
+    text-transform: uppercase;
+    font-weight: 300;
 }
 
 .container-image {
@@ -76,7 +77,7 @@
 .about-container2-heading2 p {
     font-size: 200px;
     font-family: "Ogg";
-    line-height: 80%;
+    line-height: 0%;
     font-weight: lighter;
     letter-spacing: -8px;
 }
@@ -91,7 +92,7 @@
     margin-bottom: 80px;
     color: #642420;
     word-spacing: 12px;
-    font-weight: lighter;
+    font-weight: 300;
     text-transform: uppercase;
 }
 
@@ -108,6 +109,10 @@
 
 .about-container-flower img {
     width: 100px;
+}
+
+.about-footer {
+    margin-top: 500vh;
 }
 
 @keyframes animate-rotate {
