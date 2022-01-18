@@ -30,10 +30,10 @@ function Home() {
                 <div></div>
                 <div className="container1">
                     <div className="txt-line" id="digital">
-                        <p>Digital</p>
+                        <p>Frontend</p>
                     </div>
                     <div className="txt-line line-bottom" id="designer">
-                        <p>Designer</p>
+                        <p>Developer</p>
                     </div>
                 </div>
             </div>
