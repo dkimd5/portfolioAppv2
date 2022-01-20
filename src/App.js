@@ -4,6 +4,7 @@ import Home from './Home/Home';
 import About from './About/About';
 import Projects from './Projects/Projects';
 import Contacts from './Contacts/Contacts';
+import ScrollToTop from './ScrollToTop/ScrollToTop';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <BrowserRouter>
         <div className="noise"></div>
         <div className="App">
+          <ScrollToTop />
           <Routes>
             <Route path="/" exact element={<Home />} />
             <Route path="/about" element={<About />} />
