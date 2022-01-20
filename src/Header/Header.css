@@ -123,3 +123,21 @@ header {
         display: block;
     }
 }
+
+@media (max-width: 400px) {
+    .menu-items {
+        top: 60px;
+        right: 10px;
+    }
+
+    .toggle-menu {
+        right: 10px;
+        top: 15px;
+        padding: 0px 8px;
+        padding-top: 4px;
+    }
+
+    .toggle-menu img {
+        width: 25px;
+    }
+}
