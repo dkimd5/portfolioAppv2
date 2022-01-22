@@ -115,3 +115,32 @@
     font-size: 15px;
     text-transform: uppercase;
 }
+
+@media (max-width: 900px) {
+    .footer {
+        height: 750px;
+    }
+
+    .footer-container {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    .message-for-users span {
+        display: none;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left-footer-bottom {
+        margin-left: 0px;
+    }
+
+    .right-footer-bottom {
+        margin-right: 0px;
+    }
+}
