@@ -123,3 +123,34 @@
         transform: rotate(360deg);
     }
 }
+
+@media (max-width: 1000px) {
+    .container-text {
+        font-size: 120px;
+    }
+
+    .container-inner-text2 {
+        margin-top: -300px;
+    }
+
+    .about-container2-heading p,
+    .about-container2-heading2 p {
+        font-size: 140px;
+    }
+
+    .about-container-flower {
+        top: 70vh;
+    }
+
+    .about-container2-heading {
+        margin-top: 100px;
+    }
+
+    .about-container2-heading2 p {
+        font-size: 80px;
+    }
+
+    .about-footer {
+        margin-top: 450vh;
+    }
+}
