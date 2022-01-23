@@ -154,3 +154,32 @@
         margin-top: 450vh;
     }
 }
+
+@media (max-width: 650px) {
+    .about-container2-heading2 p,
+    .about-container2-heading p {
+        font-size: 90px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-quote1 {
+        top: 50vh;
+    }
+
+    .container-image {
+        width: 95vw;
+    }
+
+    .container-text {
+        margin-left: 15px;
+    }
+
+    .about-container2-p p {
+        font-size: 15px;
+    }
+
+    .about-footer {
+        margin-top: 430vh;
+    }
+}
