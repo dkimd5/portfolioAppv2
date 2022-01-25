@@ -4,8 +4,7 @@ import { Link } from 'react-router-dom';
 import MenuIcon from '../Assets/menu.svg';
 import gsap from 'gsap';
 
-function Header() {
-    const timeline = gsap.timeline();
+function Header({ timeline }) {
     let li1 = useRef(null);
     let li2 = useRef(null);
     let li3 = useRef(null);
